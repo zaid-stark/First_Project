@@ -1,0 +1,318 @@
+#title
+{
+    background-color:#645CAA;
+}
+.navbar a         /*color text in navbar*/
+{
+    color: #F5EDDC;
+}
+.nn:hover 
+{
+    color: #FA2FB5;
+}
+.navbar-brand:hover
+{
+    color: #E6B325;
+}
+h1
+{
+    font-family: 'Source Serif Pro', serif;
+    color:#F5EDDC;
+    padding-bottom: 40px;
+    font-size: 70px;
+    
+}
+.container-fluid
+{
+    padding: 3% 15%;
+    position: relative;
+    z-index: 0;
+}
+.navbar
+{
+    padding-bottom: 5%;
+}
+.navbar-brand
+{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 2rem;
+    font-weight: bold;
+    
+
+}
+.nav-list
+{
+    padding: 0 5px;
+    
+}  
+.nav-link
+{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.2rem;
+}
+.btn
+{
+    font-family: 'Source Serif Pro', serif;
+    margin-bottom: 25px;
+
+    margin-right:10px;
+    margin-left:10px;
+}
+.phone-title
+{
+    width: 60%;
+    transform: rotate(30deg);
+    padding: 0 20px;
+    margin-left: 40px;
+}
+
+
+
+                                                    /* FEATURES */
+#features
+{
+    text-align: center;
+    padding-right: 15%;
+    padding-left: 15%;
+    
+    position: relative;
+    bottom: 115px;
+     background-color: white;
+    z-index: 1;
+    padding-top: 13%;
+
+    
+}
+
+
+h3
+{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 2rem;
+}
+.feature-par
+{
+    font-size: 1.5rem;
+    font-family: 'Source Serif Pro', serif;
+    color: #8f8f8f;
+    padding: 0 50px;
+    padding-bottom: 30px;
+    
+}
+.col-feature
+{
+    color: #AFB4FF;
+}
+.color-icon:hover
+{
+    color: #645CAA;
+}
+
+
+
+
+
+                                                    /* testimonials */
+#testimonials
+{
+    background-color: #aaa0f3;
+   
+    text-align: center;
+    padding-bottom: 2%;
+    
+    font-family: 'IBM Plex Serif', serif;
+     font-size: 1rem;
+     color: white;
+
+    
+}
+.carousel-inner
+{
+    padding: 2% 10%;
+    
+    padding-bottom: 45px;
+
+}
+.testimonial-image
+{
+    width: 10%;
+    border-radius: 100px;
+}
+.testimonial-text
+{
+    padding-left: 7%;
+    padding-right: 7%;
+    line-height: 2.5;
+    
+}
+
+.testimonial-text:hover
+{
+    color: #25316D;
+}
+
+.carousel-color-name
+{
+    color: #25316D;
+    font-weight: bold;
+}
+
+                                                 /* press */
+
+#press
+{   
+    text-align: center;
+    background-color: #aaa0f3;
+    padding: 1% 10%;
+}
+.press-image-size
+{
+    width: 10%;
+}
+
+                                        /* Pricing */
+#pricing
+{
+    padding: 2% 10%;
+    text-align: center;
+}
+/* .card
+{
+    max-width: 21rem;
+} */
+.pricing-font
+{
+    font-family: 'Source Serif Pro', serif;
+}
+
+                            /* Call to Action */
+
+#cta
+{
+    background-color:#645CAA;
+    color: white;
+    text-align: center;
+    padding: 5% 25%;
+    padding-bottom: 0px;
+    
+}
+.cta-text
+{    
+    padding-right: 5%;
+    padding-left: 5%;
+    
+    padding-bottom: 30px;
+}
+
+              /* FOOTER */
+#footer
+{
+  background-color:#645CAA; ;
+  text-align: end;
+}
+.footer-p
+{
+    margin: 0;
+    font-size:small;
+}
+
+
+
+
+
+.git-color
+{
+    color: #002B5B;
+}
+.whatsap-color
+{
+    color: #42855B;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.linked-color
+{
+    margin-right: 20px;
+    color: #0078AA;
+}
+.twit-color
+{
+  color: #3AB4F2;
+}
+
+
+
+
+             /* WORKING ON MEDIA */
+
+
+ 
+@media (max-width:1340px) and (min-width:989px)
+{
+    h1
+    {
+        font-size:300%;
+        text-align: center;
+    }
+    
+    .phone-title
+    {
+
+   
+    transform: rotate(0deg);
+    text-align: center;
+   
+   }
+   #features
+{
+    text-align: center;
+    padding:5% 15%;
+
+    font-family: 'Shadows Into Light', cursive;
+    position: relative;
+    bottom: 0px;
+     background-color:white;
+    z-index: 0;   
+}
+     @media (max-width:800px)
+     {
+        #cta
+        {
+            padding: 2% 2%;
+        }
+      
+     }
+
+  
+}
+
+@media (max-width:989px)
+{
+    .phone-title
+    {
+
+    
+    transform: rotate(0deg);
+    text-align: center;
+    padding: 0px 0px;
+    margin-left: 0;
+   
+   }
+   #features
+{
+   
+    position: relative;
+    bottom: 0px;
+
+    z-index: 1;
+    padding-top: 5%;
+
+    
+}
+.hed-mob
+{
+    text-align: center;
+}
+
+}
+
